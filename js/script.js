@@ -16,5 +16,10 @@
     addOne.addEventListener('click', plusOne);
     minusOne.addEventListener('click', subtractOne);
 
+    if (displayValue == 0) {
+        document.body.style.color = '#ffffff';
+    }else {
+        document.body.style.color = '#d3092b';
+    }
 
 }())
